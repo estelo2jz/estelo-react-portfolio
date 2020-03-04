@@ -17,7 +17,10 @@ export default class PortfolioForm extends Component {
       url: "",
       thumb_image: "",
       banner_image: "",
-      logo: ""
+      logo: "",
+      editMode: false,
+      apiUrl: "https://esteloabellanosa.devcamp.space/portfolio/portfolio_items",
+      apiAction: 'post'
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -56,7 +59,10 @@ export default class PortfolioForm extends Component {
         description: description || "",
         category: category || "eCommerce",
         position: position ||  "",
-        url: url || ""
+        url: url || "",
+        editMode: true,
+        apiUrl: `https://esteloabellanosa.devcamp.space/portfolio/portfolio_items/${id}`,
+        apiAction: 'patch'
       }); 
     }
   }
@@ -122,35 +128,42 @@ export default class PortfolioForm extends Component {
   }
 
   handleSubmit(event) {
-    axios.post(
-      "https://esteloabellanosa.devcamp.space/portfolio/portfolio_items", 
-      this.buildForm(),
-      { withCredentials: true }
-    )
-    .then(response => {
-      this.props.handleSuccessfulFormSubmission(response.data.portfolio_item);
-      console.log("response", response);
-
-      this.setState = ({
-        name: "",
-        description: "",
-        category: "eCommerce",
-        position: "",
-        url: "",
-        thumb_image: "",
-        banner_image: "",
-        logo: ""
-      });
-
-      [this.thumbRef, this.bannerRef, this.logoRef].forEach(ref => {
-        ref.current.dropzone.removeAllFiles();
-      });
+    axios({
+      method: this.state.apiAction,
+      url: this.state.apiUrl,
+      data: this.buildForm(),
+      withCredentials: true
     })
-    .catch(error => {
-      console.log("portfolio form submit error", error)
-    })
-    
-    this.buildForm();
+      .then(response => {
+        if (this.state.editMode) {
+          this.props.handleEditFormSubmission();
+        } else {          
+          this.props.handleNewFormSubmission(response.data.portfolio_item);``
+        }
+
+        this.setState = ({
+          name: "",
+          description: "",
+          category: "eCommerce",
+          position: "",
+          url: "",
+          thumb_image: "",
+          banner_image: "",
+          logo: "",
+          editMode: false,
+          apiUrl: "https://esteloabellanosa.devcamp.space/portfolio/portfolio_items",
+          apiAction: 'post'
+        });
+
+        [this.thumbRef, this.bannerRef, this.logoRef].forEach(ref => {
+          ref.current.dropzone.removeAllFiles();
+        });
+      })
+      .catch(error => {
+        console.log("portfolio form submit error", error)
+      })
+      
+    // this.buildForm();
     event.preventDefault();
   }
 
