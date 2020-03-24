@@ -50,7 +50,6 @@
     "copy-webpack-plugin": "^5.1.1",
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.0",
-    "eslint": "^4.2.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-react": "^7.1.0",
     "express": "^4.16.3",
@@ -65,6 +64,7 @@
     "react": "16.8.0",
     "react-dom": "16.8.0",
     "react-dropzone-component": "^3.2.0",
+    "react-modal": "^3.11.2",
     "react-redux": "5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.3.1",
@@ -83,6 +83,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
+    "eslint": "^4.19.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "uglifyjs-webpack-plugin": "^1.2.7"
   }
