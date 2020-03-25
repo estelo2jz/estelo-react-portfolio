@@ -4,13 +4,19 @@
 
   .portfolio-item-wrapper {
     position: relative;
+    padding: 5px;;
 
     .portfolio-img-background {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-size: cover;
       background-position: center;
       background-repeat: none;
       height: 350px;
       width: 100%;
+      border: 3px solid rgb(0, 3, 0);
+      border-radius: 3px;
     }
 
     .img-text-wrapper {
