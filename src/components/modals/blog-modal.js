@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import ReactModal from 'react-modal';
+import React, { Component } from "react";
+import ReactModal from "react-modal";
 
-import BlogForm from '../blog/blog-form';
+import BlogForm from "../blog/blog-form";
 
 ReactModal.setAppElement(".app-wrapper");
 
@@ -15,33 +15,35 @@ export default class BlogModal extends Component {
         left: "50%",
         right: "auto",
         marginRight: "-50%",
-        transform: "translate(-50%, -50%)",
-        width: "800px",
-        backgroundColor: "rgb(223, 217, 217)",
+        transform: "translate(-50%, -50%",
+        width: "800px"
       },
       overlay: {
-        backgroundColor: "rgba(1 ,1 ,1 ,0.75)",
+        backgroundColor: "rgba(1, 1, 1, 0.75)"
       }
     };
 
-    this.handleSuccessfullFormSubmission = this.handleSuccessfullFormSubmission.bind(this);
+    this.handleSuccessfullFormSubmission = this.handleSuccessfullFormSubmission.bind(
+      this
+    );
   }
 
   handleSuccessfullFormSubmission(blog) {
-    console.log("blog from blog form", blog);
+    this.props.handleSuccessfulNewBlogSubmission(blog);
   }
 
   render() {
     return (
-      <ReactModal 
+      <ReactModal
         style={this.customStyles}
         onRequestClose={() => {
           this.props.handleModalClose();
-        }} 
+        }}
         isOpen={this.props.modalIsOpen}
       >
-        <BlogForm 
-          handleSuccessfullFormSubmission={this.handleSuccessfullFormSubmission} />
+        <BlogForm
+          handleSuccessfullFormSubmission={this.handleSuccessfullFormSubmission}
+        />
       </ReactModal>
     );
   }

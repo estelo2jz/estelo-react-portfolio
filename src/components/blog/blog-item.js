@@ -11,13 +11,15 @@ const BlogItem = props => {
   } = props.blogItem;
 
   return (
-    <div>
-      <Link to={`/b/${id}`}>
-        <h1>{title}</h1>
-      </Link>
-    <div>
-      {content}
-    </div>
+    <div className="blog-item-heading-container">
+      <div className="blog-item-link-container">
+        <Link to={`/b/${id}`}>      
+          <h1 className="blog-item-heading-title">{title}</h1>
+        </Link>
+      </div>
+      <div className="blog-item-content">
+        {content}
+      </div>
     </div>
   );
 };

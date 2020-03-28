@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import axios from "axios";
 
 export default class BlogForm extends Component {
   constructor(props) {
@@ -6,16 +7,43 @@ export default class BlogForm extends Component {
 
     this.state = {
       title: "",
-      blog_status: "",
-    }
+      blog_status: ""
+    };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+  }
 
+  buildForm() {
+    let formData = new FormData();
+
+    formData.append("portfolio_blog[title]", this.state.title);
+    formData.append("portfolio_blog[blog_status]", this.state.blog_status);
+
+    return formData;
   }
 
   handleSubmit(event) {
-    this.props.handleSuccessfullFormSubmission(this.state);
+    axios
+      .post(
+        "https://esteloabellanosa.devcamp.space/portfolio/portfolio_blogs",
+        this.buildForm(),
+        { withCredentials: true }
+      )
+      .then(response => {
+        this.props.handleSuccessfullFormSubmission(
+          response.data.portfolio_blog
+        );
+
+        this.setState({
+          title: "",
+          blog_status: ""
+        });
+      })
+      .catch(error => {
+        console.log("handleSubmit for blog error", error);
+      });
+
     event.preventDefault();
   }
 
@@ -34,7 +62,7 @@ export default class BlogForm extends Component {
           name="title"
           placeholder="Blog Title"
           value={this.state.title}
-         />
+        />
 
         <input
           type="text"
@@ -42,10 +70,10 @@ export default class BlogForm extends Component {
           name="blog_status"
           placeholder="Blog status"
           value={this.state.blog_status}
-         />
+        />
 
         <button>Save</button>
       </form>
-    )
+    );
   }
 }
