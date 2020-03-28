@@ -43,3 +43,7 @@
   display: grid;
   grid-gap: 21px;
 }
+
+@mixin base-border-radius() {
+  border-radius: 3px;
+}

@@ -22,7 +22,18 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 15px;
         
-        .action-icon {
+        .action-edit {
+          cursor: pointer;
+          color: $offwhite;
+          font-size: 1.5em;
+          transition: 0.5 ease-in-out;
+
+          &:hover {
+            color: rgb(121, 196, 8);
+          }
+        }
+
+        .action-delete {
           cursor: pointer;
           color: $offwhite;
           font-size: 1.5em;

@@ -8,6 +8,7 @@
 
   .right-column {
     background-color: $charcoal;
+    @include base-border-radius();
   }
 }
  

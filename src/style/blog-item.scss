@@ -1,0 +1,28 @@
+.blog-item-heading-container {
+  @include base-border-radius();
+
+  height: 100%;
+  width: 100%;
+  background-color:rgb(124, 114, 114);
+  padding: 10px;
+  padding-top: 0px;
+  margin: 10px 5px;
+
+  .blog-item-link-container {
+    font-size: 1.5em;
+  }
+
+  .blog-item-heading-title {
+    color: #8FBC8F;
+    padding: 10px 10px -10px 10px;
+    margin: 0;
+  }
+
+  .blog-item-content {
+    color: white;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 1.3em;
+    height: 30px;
+  }
+}

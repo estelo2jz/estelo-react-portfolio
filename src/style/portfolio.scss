@@ -2,9 +2,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
+  .btn {
+    margin: 5px;
+    margin-bottom: -1px;
+  }
+
   .portfolio-item-wrapper {
     position: relative;
-    padding: 5px;;
+    padding: 5px;
 
     .portfolio-img-background {
       display: flex;
@@ -15,7 +20,6 @@
       background-repeat: none;
       height: 350px;
       width: 100%;
-      border: 3px solid rgb(0, 3, 0);
       border-radius: 3px;
     }
 
