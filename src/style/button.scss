@@ -1,3 +1,4 @@
 .btn {
   @include base-btn();
+  @include base-border-radius();
 }

@@ -1,13 +1,13 @@
 .portfolio-manager-wrapper {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  padding: 5px;
 
   .left-column {
     background-color: rgb(223, 217, 217);
   }
 
   .right-column {
-    background-color: $charcoal;
     @include base-border-radius();
   }
 }

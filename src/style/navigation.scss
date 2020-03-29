@@ -1,7 +1,11 @@
 .nav-wrapper {
+  @include base-border-radius();
   display: flex;
   justify-content: space-between;
   padding: 30px;
+  background-color: #FAF0E6;
+  margin: 5px;
+  
 
   .rigth-side {
     a {

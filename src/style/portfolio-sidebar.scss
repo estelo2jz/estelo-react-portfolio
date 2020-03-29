@@ -1,10 +1,13 @@
 .portfolio-sidebar-list-wrapper {
   .portfolio-item-thumb {
     padding: 21px;
+    background-color: #FDF5E6;
+    @include base-border-radius();
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     .portfolio-thumb-img img {
       width: 100%;
-
     }
 
     .text-content {
@@ -13,7 +16,7 @@
       align-items: center;
 
       .title {
-        color: $offwhite;
+        color: black;
         font-size: 1.5em;
       }
 
@@ -24,7 +27,7 @@
         
         .action-edit {
           cursor: pointer;
-          color: $offwhite;
+          color: black;
           font-size: 1.5em;
           transition: 0.5 ease-in-out;
 
@@ -35,7 +38,7 @@
 
         .action-delete {
           cursor: pointer;
-          color: $offwhite;
+          color: black;
           font-size: 1.5em;
           transition: 0.5 ease-in-out;
 

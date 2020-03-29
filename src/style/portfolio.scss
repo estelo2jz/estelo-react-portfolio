@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr;
 
   .btn {
+    @include base-border-radius();
     margin: 5px;
     margin-bottom: -1px;
   }
