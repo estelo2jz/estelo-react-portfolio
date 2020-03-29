@@ -3,17 +3,20 @@
 
   height: 100%;
   width: 100%;
-  background-color:rgb(124, 114, 114);
+  background-color:rgb(180, 106, 106);
   padding: 10px;
   padding-top: 0px;
   margin: 10px 5px;
+  border: 2px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px grey;
 
   .blog-item-link-container {
     font-size: 1.5em;
   }
 
   .blog-item-heading-title {
-    color: #8FBC8F;
+    color: rgb(255, 255, 255);
     padding: 10px 10px -10px 10px;
     margin: 0;
   }
