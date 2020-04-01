@@ -1,12 +1,33 @@
 .blog-container {
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
+  position: relative;
+
+  .new-blog-link {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    a {
+      font-size: 3em;
+      cursor: pointer;
+      color: rgb(233, 150, 150);
+      margin-bottom: 15px;
+      margin-right: 15px;
+      transition: 0.5s ease-in-out;
+
+      &:hover {
+        color: rgb(252, 113, 0);
+      }
+    }
+  }
 
   .content-container {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 700px;
     font-size: 1.1em;
 
     a {

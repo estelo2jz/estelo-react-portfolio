@@ -2,7 +2,7 @@
   @include base-grid();
   grid-template-columns: 1fr;
   padding: 42px;
-  background-color: rgb(223, 217, 217);
+  // background-color: rgb(223, 217, 217);
   
   @include input-element();
   input {
