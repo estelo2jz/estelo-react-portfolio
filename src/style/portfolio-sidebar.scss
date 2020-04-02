@@ -7,6 +7,7 @@
     margin-bottom: 10px;
 
     .portfolio-thumb-img img {
+      @include base-border-radius();
       width: 100%;
     }
 
