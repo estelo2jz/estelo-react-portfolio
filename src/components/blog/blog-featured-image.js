@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const BlogFeaturedImage = props => {
 
@@ -8,7 +8,7 @@ const BlogFeaturedImage = props => {
 
   return (
     <div className="featured-image-wrapper">  
-      <img src={props.mg} />
+      <img src={props.img} />
     </div> 
   )
 }
