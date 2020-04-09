@@ -5,6 +5,22 @@
   align-items: center;
   position: relative;
 
+  .admin-blog-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .blog-delete {
+      font-size: 1.1em;
+      color: #bd3d3d;
+
+    }
+
+    a {
+      cursor: pointer;
+    }
+  }
+
   .new-blog-link {
     position: fixed;
     right: 0;

@@ -1,7 +1,7 @@
 .portfolio-sidebar-list-wrapper {
   .portfolio-item-thumb {
     padding: 21px;
-    background-color: #FDF5E6;
+    background-color: #d68484;
     @include base-border-radius();
     margin-top: 10px;
     margin-bottom: 10px;
@@ -18,7 +18,7 @@
 
       .title {
         color: black;
-        font-size: 1.5em;
+        font-size: 2em;
       }
 
       .actions {
