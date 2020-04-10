@@ -17,10 +17,10 @@ export default function() {
               <p><strong>Estelo Abellanosa is Full Stack Developer</strong></p> 
               <p>With React, Python, and JavaScript.</p>
               <p>
-                He have not work in this field before, but he is willing to learn 
-                and gain more experience throught working and learning at the job.
+                He started his coding journey on an online bootcamp, he is a fast learner 
+                and loves to code. Is looking for a entry level develper jobs, to gain more knowledge and be better at building Web Applications.
                 He have attended Bottega tech for a year https://bottega.tech.
-                Likes to build projects with React and Svelte, like this website it is built on React.
+                Likes to build projects with React and Svelte, like this website for example, it is built on React.
               </p>
             </div>
         </div>
