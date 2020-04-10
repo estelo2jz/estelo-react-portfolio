@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import ReactHtmlParser from 'react-html-parser';
+
 import BlogForm from '../blog/blog-form';
 import BlogFeaturedImage from '../blog/blog-featured-image';
 
@@ -35,7 +36,7 @@ export default class BlogDetail extends Component {
   }
 
   handleEditClick() {
-    console.log("handle edit click");
+    // console.log("handle edit click");
     if (this.props.loggedInStatus === "LOGGED_IN") {
       this.setState({ editMode: true });
     }
