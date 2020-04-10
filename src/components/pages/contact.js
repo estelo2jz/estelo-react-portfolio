@@ -23,7 +23,7 @@ export default function() {
                         </div>
 
                         <div className="text">
-                            222-222-2222
+                            224
                         </div>
                     </div>
 
