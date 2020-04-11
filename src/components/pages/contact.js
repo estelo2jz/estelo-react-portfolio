@@ -39,6 +39,16 @@ export default function() {
 
                     <div className="bullet-point-group">
                         <div className="icon">
+                            <FontAwesomeIcon icon="user-circle" />
+                        </div>
+
+                        <div className="text">
+                            linkedin.com/in/estelo-abellanosa-83a335186
+                        </div>
+                    </div>
+
+                    <div className="bullet-point-group">
+                        <div className="icon">
                             <FontAwesomeIcon icon="map-marked-alt" />
                         </div>
 
