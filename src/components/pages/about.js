@@ -23,7 +23,7 @@ export default function() {
                 Likes to build projects with React and Svelte, like this website for example, it is built on React.
               </p>
               <p>
-                  The Website is not mobile Mobile-Friendly, but he is working on it. 
+                  The Website is not Mobile-Friendly.
               </p>
             </div>
         </div>
