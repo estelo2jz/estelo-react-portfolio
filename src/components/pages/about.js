@@ -22,6 +22,9 @@ export default function() {
                 He has attended Bottega tech for a year https://bottega.tech.
                 Likes to build projects with React and Svelte, like this website for example, it is built on React.
               </p>
+              <p>
+                  The Website is not mobile Mobile-Friendly, but he is working on it. 
+              </p>
             </div>
         </div>
     )
