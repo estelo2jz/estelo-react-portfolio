@@ -18,8 +18,8 @@ export default function() {
               <p>With React, Python, and JavaScript.</p>
               <p>
                 He started his coding journey on an online bootcamp, he is a fast learner 
-                and loves to code. Is looking for a entry level develper jobs, to gain more knowledge and be better at building Web Applications.
-                He have attended Bottega tech for a year https://bottega.tech.
+                and loves to code. Is looking for a Junior Developer jobs, to gain more knowledge and skill to be great Developer.
+                He has attended Bottega tech for a year https://bottega.tech.
                 Likes to build projects with React and Svelte, like this website for example, it is built on React.
               </p>
             </div>
