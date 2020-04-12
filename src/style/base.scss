@@ -4,6 +4,7 @@ body {
   font-family: 'Titillium Web', sans-serif;
   background-color: rgb(223, 217, 217);
   margin: 5px;
+  width: 100%;
 }
 
 .container {
@@ -11,6 +12,6 @@ body {
   grid-template-columns: 1fr;
 }
 
-// @media(min-width: 500px) {
-//   body {display: none}
-// }
+@media(max-width: 500px) {
+
+}

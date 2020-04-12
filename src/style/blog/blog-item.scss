@@ -9,7 +9,7 @@
   padding-top: 0px;
   margin: 10px 5px;
   border: 2px;
-  // padding: 10px;
+  padding: 10px;
   box-shadow: 5px 5px 5px grey;
 
   .blog-item-link-container {
@@ -32,18 +32,16 @@
 }
 
 @media(max-width: 600px) {
-  display {display: none;};
   .blog-item-heading-container {
     display: grid;
     grid-template-columns: 1fr;
-    width: 74%;
-    .blog-item-link-container {  
-      .blog-item-heading-title {
-        width: 50px;
-
-        .blog-item-content {
-          display: grid;
-          width: 50px;
+    width: 95%;
+    .blog-item-heading-container {
+      .blog-item-link-container {
+        .blog-item-heading-title {
+          .blog-item-content {
+            width: 10%;
+          }
         }
       }
     }
