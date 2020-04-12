@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { withRouter } from 'react-router';
 import { NavLink } from 'react-router-dom';
+import NavModal from "../modals/nav-modal";
 
 const NavigationContainer = (props) => {
-
     const dynamicLink = (route, linkText) => {
         return (
             <div className="nav-link-wrapper">
@@ -13,7 +13,6 @@ const NavigationContainer = (props) => {
             </div>
         );
     }
-
     const handleSignOut = () => {
         axios.delete("https://api.devcamp.space/logout", {
             withCredentials: true
@@ -29,7 +28,6 @@ const NavigationContainer = (props) => {
             console.log("Error signing out", error);
         });
     }
-
     return (
         <div className="nav-wrapper">
             <div className="left-side">
@@ -58,7 +56,7 @@ const NavigationContainer = (props) => {
                 ESTELO ABELLANOSA
                 {props.loggedInStatus === "LOGGED_IN" ? (
                     <a onClick={handleSignOut}>
-                      <FontAwesomeIcon icon="sign-out-alt" />
+                    <FontAwesomeIcon icon="sign-out-alt" />
                     </a>) : null}
             </div>
         </div>
