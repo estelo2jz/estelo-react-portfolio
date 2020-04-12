@@ -60,3 +60,11 @@
   transition: 1s;
   filter: brightness(10%);
 }
+
+@media(max-width: 600px) {
+  // body {display: none;}
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

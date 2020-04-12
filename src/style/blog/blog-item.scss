@@ -1,6 +1,7 @@
 .blog-item-heading-container {
   @include base-border-radius();
-
+  display: grid;
+  grid-template-columns: 1fr;
   height: 100%;
   width: 100%;
   background-color:rgb(214, 132, 132);
@@ -27,5 +28,24 @@
     font-size: 1em;
     height: 100%;
     width: 100%;
+  }
+}
+
+@media(max-width: 600px) {
+  display {display: none;};
+  .blog-item-heading-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 74%;
+    .blog-item-link-container {  
+      .blog-item-heading-title {
+        width: 50px;
+
+        .blog-item-content {
+          display: grid;
+          width: 50px;
+        }
+      }
+    }
   }
 }

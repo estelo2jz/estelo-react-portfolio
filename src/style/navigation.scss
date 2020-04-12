@@ -54,3 +54,11 @@
       }
   }
 }
+
+@media(max-width: 600px) {
+  .nav-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+}

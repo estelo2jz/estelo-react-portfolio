@@ -38,3 +38,19 @@
     }
   }
 }
+
+@media(max-width: 600px) {
+  .content-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .left-column {
+      width: 545.54px;
+      height: 600px;
+    }
+
+    .right-column {
+      width: 545.54;
+    }
+  }
+}
