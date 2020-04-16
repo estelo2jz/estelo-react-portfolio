@@ -10,13 +10,13 @@
   }
 
   .portfolio-test {
-    width: 500px;
+    width: 100%;
     padding-left: 10px;
-  .portfolio-detail-description-wrapper {
-    text-align: center;
-    margin-top: 42px;
-    display: flex;
-    justify-content: center;
+    .portfolio-detail-description-wrapper {
+      text-align: center;
+      margin-top: 42px;
+      display: flex;
+      justify-content: center;
 
       .description {
         width: 700px;
@@ -24,7 +24,7 @@
         margin-bottom: 50px;
         display: grid;
       }
-  }
+    }
   }
 
   .bottom-content-wrapper {
@@ -50,10 +50,15 @@
 }
 
 @media(max-width: 500px) {
-  .portfolio-detail-wrapper {
-    .banner {
-      width: 140%;
+    .portfolio-detail-wrapper {
+      .banner {
+        width: 140%;
+      }
+      .portfolio-test {
+        width: 500px;
+        display: grid;
+        justify-content: center;
+
+      }
     }
   }
-
-}
