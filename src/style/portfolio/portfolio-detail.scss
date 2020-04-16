@@ -60,6 +60,16 @@
         justify-content: center;
         grid-template-columns: 1fr;
 
+        .portfolio-detail-description-wrapper {
+          .description {
+            width: 100%;
+            padding-left: 35px;
+          }
+        }
+      }
+
+      .bottom-content-wrapper {
+        padding-left: 30px;
       }
     }
   }
