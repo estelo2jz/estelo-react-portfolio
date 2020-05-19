@@ -30,7 +30,7 @@ export default function() {
                   <li>Back end Database</li>
                   <li>Analytical Skills</li>
                   <li>Responsive Design</li>
-                  <li>Libraties and frameworks</li>
+                  <li>Libraries and frameworks</li>
                   <li>Working with Hosting (Publishing web site)</li>
               </ul>
               <p>
