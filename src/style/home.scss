@@ -22,7 +22,12 @@
       display: grid;
       grid-template-columns: 1fr;
       text-align: center;
-      width: 593px;
+      width: 594px;
+
+      button {
+        width: 100px;
+      }
+
 
     }
   }
@@ -35,11 +40,6 @@
       grid-template-columns: 1fr;
       text-align: center;
       width: 365px;
-
-      .btn {
-        width: 100%;
-      }
-
     }
   }
 }
