@@ -15,3 +15,31 @@
     }
   }
 }
+
+@media(max-width: 700px) {
+  .homepage-wrapper {
+    .filter-links {
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+      width: 593px;
+
+    }
+  }
+}
+
+@media(max-width: 400px) {
+  .homepage-wrapper {
+    .filter-links {
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+      width: 365px;
+
+      .btn {
+        width: 100%;
+      }
+
+    }
+  }
+}

@@ -46,10 +46,10 @@
     }
 
     &:hover {
-      border-bottom: 1px solid rgb(255, 0, 0);
+      // border-bottom: 1px solid rgb(255, 0, 0);
     }
     .nav-link-active {
-      border-bottom: 1px solid #bd3d3d;;
+      border-bottom: 1px solid #bd3d3d;
       color: black;
       }
   }
@@ -64,6 +64,10 @@
     .rigth-side {
       display: grid;
       width: 150px;
+    }
+
+    .left-side {
+      display: grid;
     }
   }
 

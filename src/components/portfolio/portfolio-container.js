@@ -77,30 +77,33 @@ export default class PortfolioContainer extends Component {
         return (
             <div className="homepage-wrapper">
                 <div className="filter-links">
-                <button
-                    className="btn link-wrapper"
-                    onClick={() => this.handleFilter("eCommerce")}
-                >
-                    eCommerce
-                </button>
-                <button
-                    className="btn link-wrapper"
-                    onClick={() => this.handleFilter("Scheduling")}
-                >
-                    Scheduling
-                </button>
-                <button
-                    className="btn link-wrapper"
-                    onClick={() => this.handleFilter("Enterprise")}
-                >
-                    Enterprise
-                </button>
-                <button
-                    className="btn link-wrapper"
-                    onClick={() => this.handleFilter("CLEAR_FILTERS")}
-                >
-                    All
-                </button>
+                    {/* <div> */}
+                        <button
+                            className="btn link-wrapper"
+                            onClick={() => this.handleFilter("eCommerce")}
+                        >eCommerce</button>
+                    {/* </div> */}
+
+                    {/* <div> */}
+                        <button
+                            className="btn link-wrapper"
+                            onClick={() => this.handleFilter("Scheduling")}
+                        >Scheduling</button>
+                    {/* </div> */}
+
+                    {/* <div> */}
+                        <button
+                            className="btn link-wrapper"
+                            onClick={() => this.handleFilter("Enterprise")}
+                        >Enterprise</button>
+                    {/* </div> */}
+
+                    {/* <div> */}
+                        <button
+                            className="btn link-wrapper"
+                            onClick={() => this.handleFilter("CLEAR_FILTERS")}
+                        >All</button>
+                    {/* </div> */}
                 </div>
                 <div className="portfolio-items-wrapper">{this.portfolioItems()}</div>
             </div>
