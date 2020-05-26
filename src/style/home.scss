@@ -16,32 +16,29 @@
   }
 }
 
-@media(max-width: 700px) {
+@media(max-width: 600px) {
   .homepage-wrapper {
     .filter-links {
       display: grid;
       grid-template-columns: 1fr;
       text-align: center;
-      width: 594px;
-      
-      button {
-        width: 100px;
-        margin: 0;
-        padding: 0;
-      }
-
+      width: 97%;
 
     }
   }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 300px) {
   .homepage-wrapper {
     .filter-links {
       display: grid;
       grid-template-columns: 1fr;
       text-align: center;
-      width: 365px;
+      width: 65px;
+
+      .link-wrapper {
+        width: 100px;
+      }
     }
   }
 }
