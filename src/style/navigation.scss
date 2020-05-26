@@ -1,5 +1,6 @@
 .nav-wrapper {
   @include base-border-radius();
+  // width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 30px;
@@ -29,6 +30,7 @@
 
   .nav-link-wrapper {
     height: 22px;
+    width: 100%;
     border-bottom: 1px solid transparent;
     transition: 0.5s ease-in-out;
 

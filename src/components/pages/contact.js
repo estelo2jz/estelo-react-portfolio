@@ -7,7 +7,7 @@ export default function() {
     return (
         <div className="content-page-wrapper">
             <div 
-                className="left-column"
+                className="left-column nice"
                 style={{
                     background: "url(" + contactpagePicture + ") no-repeat",
                     backgroundSize: "cover",

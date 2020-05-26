@@ -19,7 +19,7 @@
 
   .contact-bullet-points {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     grid-gap: 21px;
 
     .bullet-point-group {
@@ -44,10 +44,13 @@
   .content-page-wrapper {
     display: grid;
     grid-template-columns: 1fr;
+    width: 100%;
 
-    .left-column {
+    
+    .left-column  {
       width: 593px;
       height: 600px;
+      
     }
 
     .right-column {
@@ -62,12 +65,22 @@
     grid-template-columns: 1fr;
 
     .left-column {
-      width: 545.54px;
-      height: 600px;
+      justify-self: center;
+      width: 365px;
+      height: 350px;
     }
 
-    .right-column {
-      width: 545.54;
-    }
+    // .right-column {
+    //   width: 365.54;
+
+    //   .contact-bullet-points {
+    //     width: 170px;
+
+    //     .bullet-point-group {
+    //       width: 100%;
+    //       justify-self: start;
+    //     }
+    //   }
+    // }
   }
 }

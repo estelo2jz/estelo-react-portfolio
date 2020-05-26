@@ -10,7 +10,10 @@ export default function() {
                     background: "url(" + profilePicture + ") no-repeat",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
-                    margin: "5px"
+                    margin: "5px",
+                    // height:  "545px",
+                    // width: "500px",
+                    // alignContent: "center"
                 }}
             />
             <div className="right-column">
