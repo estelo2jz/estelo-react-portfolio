@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin-top: 200px;
+    // margin-top: 100px;
   }
 
   .left-column {
@@ -33,6 +33,15 @@
     align-items: center;
     flex-direction: column;
     padding: 100px;
+
+    p {
+      font-size: 1.5em;
+    }
+
+    li {
+      font-size: 1.3em;
+      font-weight: 400;
+    }
   }
 
   .contact-bullet-points {
@@ -43,6 +52,10 @@
     .bullet-point-group {
       display: flex;
       align-items: center;
+
+      li {
+        font-size: 1.5em;
+      }
 
       .icon {
         font-size: 2em;

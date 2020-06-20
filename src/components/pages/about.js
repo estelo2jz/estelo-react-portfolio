@@ -27,10 +27,10 @@ export default function() {
                 Innovative Full Stack Developer with 2 years of experience in building and maintaining websites. 
                 Proficient in HTML, SASS, JavaScript, Python, and React, plus modern libraries and frameworks. 
                 Passionate about usability and possess the knowledge and working with computer hardware.
-                I have attended Bottega tech <a href="https://bottega.tech">https://bottega.tech</a>, and other courses on my free time.
+                I have attended Bottega tech <a href="https://bottega.tech">https://bottega.tech</a>, and <a href="https://www.udemy.com/">Udemy</a> courses on my free time.
                 I enjoy building projects with React, like this website for example, it's built on React.
               </p>
-              <h3>My skills</h3>
+              <h1>My skills</h1>
               <ul>
                   <li>Python</li>
                   <li>HTML/SCSS?JavaScript</li>

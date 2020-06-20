@@ -2,11 +2,13 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import contactpagePicture from "../../../static/assets/images/auth/login.jpg";
 
+import ContactInfo from './contact-info';
 
 export default function() {
     return (
-        <div className="content-page-wrapper">
-          <div className="contact-img">
+        <div className="contact-container">
+          <ContactInfo />
+          {/* <div className="contact-img">
             <div 
                 className="left-column nice"
                 style={{
@@ -63,7 +65,7 @@ export default function() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
