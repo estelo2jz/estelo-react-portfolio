@@ -68,18 +68,40 @@ export default function() {
             </div>
             <div className="bullet-point-group">
               <div className="icon">
-                  <FontAwesomeIcon icon="user-circle" />
-              </div>
-              <div className="text">
-                  linkedin.com/in/estelo-abellanosa-83a335186
-              </div>
-            </div>
-            <div className="bullet-point-group">
-              <div className="icon">
                   <FontAwesomeIcon icon="map-marked-alt" />
               </div>
               <div className="text">
                   Beach Park, IL
+              </div>
+            </div>
+            <div className="bullet-point-group">
+              <div className="icon">
+                  <FontAwesomeIcon icon="user-circle" />
+              </div>
+              <div className="text">
+                <a href="https://www.linkedin.com/in/estelo-abellanosa-83a335186/">
+                  linkedin
+                </a>
+              </div>
+            </div>
+            <div className="bullet-point-group">
+              <div className="icon">
+                  <FontAwesomeIcon icon="user-circle" />
+              </div>
+              <div className="text">
+                <a href="https://www.facebook.com/estelo.abellanosa">
+                  facebook
+                </a>
+              </div>
+            </div>
+            <div className="bullet-point-group">
+              <div className="icon">
+                  <FontAwesomeIcon icon="user-circle" />
+              </div>
+              <div className="text">
+                <a href="https://twitter.com/EsteloManitoba">
+                  twitter
+                </a>
               </div>
             </div>
         </div>
