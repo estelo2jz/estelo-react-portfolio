@@ -5,7 +5,18 @@
   grid-template-columns: 1fr 1fr;
   height: calc(100vh - 84px);
 
+  .helper-img {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 100px;
+  }
+
   .left-column {
+    // width: 500px;
+    // height: 500px;
+    // border: 1px solid red;
+    padding: 10px;
     border-radius: 3px;
   }
 
