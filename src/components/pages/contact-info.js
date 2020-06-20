@@ -79,6 +79,16 @@ export default function() {
                   <FontAwesomeIcon icon="user-circle" />
               </div>
               <div className="text">
+                <a href="https://github.com/estelo2jz">
+                  github
+                </a>
+              </div>
+            </div>
+            <div className="bullet-point-group">
+              <div className="icon">
+                  <FontAwesomeIcon icon="user-circle" />
+              </div>
+              <div className="text">
                 <a href="https://www.linkedin.com/in/estelo-abellanosa-83a335186/">
                   linkedin
                 </a>
