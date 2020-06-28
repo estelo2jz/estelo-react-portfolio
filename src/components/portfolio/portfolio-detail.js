@@ -42,7 +42,7 @@ export default class PortfolioDetail extends Component {
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
-            margin: "5px"
+            margin: "5px",
         };
 
         const logoStyles = {

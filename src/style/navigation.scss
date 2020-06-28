@@ -24,8 +24,7 @@
   }
 
   .left-side {
-    display: flex;
-    
+    display: flex; 
   }
 
   .nav-link-wrapper {
@@ -57,11 +56,31 @@
   }
 }
 
+@media(max-width: 375px) {
+  .nav-wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2fr 1fr;
+    width: 500px;
+
+    .rigth-side {
+      display: grid;
+      width: 150px;
+    }
+
+    .left-side {
+      display: grid;
+    }
+  }
+
+}
+
 @media(max-width: 700px) {
   .nav-wrapper {
     display: grid;
     justify-content: center;
     grid-template-columns: 2fr 1fr;
+    // width: 90vw;
 
     .rigth-side {
       display: grid;

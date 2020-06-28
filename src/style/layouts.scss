@@ -1,3 +1,7 @@
+html {
+  width: 100%;
+}
+
 .content-page-wrapper {
   // width: 100vw;
   width: 100%;
@@ -15,7 +19,7 @@
   .contact-img {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    // padding: 20px;
     // margin-top: 100px;
   }
 
@@ -45,6 +49,7 @@
   }
 
   .contact-bullet-points {
+    width: 375px;
     display: grid;
     grid-template-columns: 2fr;
     grid-gap: 21px;
@@ -76,7 +81,6 @@
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
-
     
     .left-column  {
       width: 593px;

@@ -7,7 +7,7 @@ export default function() {
   return (
     <div className="content-page-wrapper">
       <div className="contact-img">
-        <div className="right-column">
+        <div className="right-column space">
           <div className="contact-bullet-points">
             <h1>Recent Employment History</h1>
               <div className="bullet-point-group">
