@@ -1,0 +1,71 @@
+0000000000000000000000000000000000000000 c5f94792f79500bfba690618f7db3e95fbf89e4e esteloabell <manitobaaa@gamil.com> 1576706357 -0600	commit (initial): Initial commit
+c5f94792f79500bfba690618f7db3e95fbf89e4e 5574963fed7c29a00524e8ba3abc965af3f80491 esteloabell <manitobaaa@gamil.com> 1582852247 -0600	commit: 2 initial commit, Form mixin guide
+5574963fed7c29a00524e8ba3abc965af3f80491 126b890d4bdd7bbc13e05ec2fd66a9ea2da69ae0 esteloabell <manitobaaa@gamil.com> 1583190249 -0600	commit: updated with api's
+126b890d4bdd7bbc13e05ec2fd66a9ea2da69ae0 9ee86c433edb0edcb0461c05900841c673bf7f52 esteloabell <manitobaaa@gamil.com> 1583190291 -0600	commit: done
+9ee86c433edb0edcb0461c05900841c673bf7f52 a4bf3a85103056d156c2900fa00a23a6d9c3f795 esteloabell <manitobaaa@gamil.com> 1583195658 -0600	commit: updated with states in forms
+a4bf3a85103056d156c2900fa00a23a6d9c3f795 20cdfd11eaa6baaea99ffb9e00eb84959c960041 esteloabell <manitobaaa@gamil.com> 1583195669 -0600	commit: added more styles
+20cdfd11eaa6baaea99ffb9e00eb84959c960041 0a97996ba951f91bcd0bc64ffcbae2c99d50409c esteloabell <manitobaaa@gamil.com> 1583282764 -0600	commit: making dynamic axios api queries
+0a97996ba951f91bcd0bc64ffcbae2c99d50409c ce9daba1804458b12b73997a5466fa6f965e33e3 esteloabell <manitobaaa@gamil.com> 1583369047 -0600	commit: added faUnlink icon
+ce9daba1804458b12b73997a5466fa6f965e33e3 cc3e2b510194701301469e2e724be250bb997843 esteloabell <manitobaaa@gamil.com> 1583369076 -0600	commit: styles on dropzone component
+cc3e2b510194701301469e2e724be250bb997843 765f19f6ee9b9416d1c17c0cf903c2902ea2c601 esteloabell <manitobaaa@gamil.com> 1583369108 -0600	commit: added mutliple evetns, and api calls
+765f19f6ee9b9416d1c17c0cf903c2902ea2c601 2976d9c5b9dbd999e9c885767ef380379384327f Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585090225 -0500	commit: added react-modal library and component
+2976d9c5b9dbd999e9c885767ef380379384327f 5ade1bd383feed47e34f5a205b12b5bde72d26f1 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585090232 -0500	commit: Delete .DS_Store
+5ade1bd383feed47e34f5a205b12b5bde72d26f1 5ade1bd383feed47e34f5a205b12b5bde72d26f1 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585090277 -0500	reset: moving to HEAD
+5ade1bd383feed47e34f5a205b12b5bde72d26f1 5ade1bd383feed47e34f5a205b12b5bde72d26f1 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585090413 -0500	reset: moving to HEAD
+5ade1bd383feed47e34f5a205b12b5bde72d26f1 82f1ee5d6477a2f97fa97a4c0f02d1b5760960d2 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585090527 -0500	commit (merge): .
+82f1ee5d6477a2f97fa97a4c0f02d1b5760960d2 1be08e24204e5b151b5fe9a9c151ef4a0c719e39 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585099178 -0500	commit: blogModal updated and scss
+1be08e24204e5b151b5fe9a9c151ef4a0c719e39 eb809bfd3828a56f6504a7a483d4d8fac1007fa0 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585422211 -0500	commit: update scss files
+eb809bfd3828a56f6504a7a483d4d8fac1007fa0 2e3b0122b796a7c005c152335a1055fa7de4b74e Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585422239 -0500	commit: updated files, but problem with handleSubmit().
+2e3b0122b796a7c005c152335a1055fa7de4b74e 21cf7bb28b8c66909b4d319c28b00d895167ef84 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585487272 -0500	commit: updated files and delete a duplicate file
+21cf7bb28b8c66909b4d319c28b00d895167ef84 bc8e8055795752d9f9e680a9776efd2aab96f028 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585494762 -0500	commit: fix axios error about the code 422
+bc8e8055795752d9f9e680a9776efd2aab96f028 f3fc7411dd6a5c1a49453cb53a4f039c4e4290a7 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585701062 -0500	commit: updated many files, no errors
+f3fc7411dd6a5c1a49453cb53a4f039c4e4290a7 c7cfd0dafe7de9b6e2ee02016af18b5bcfda5a65 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585789967 -0500	commit: updated styles
+c7cfd0dafe7de9b6e2ee02016af18b5bcfda5a65 6ac8af9d860c5daff051154c636264ce0c560167 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585789980 -0500	commit: added many libraries
+6ac8af9d860c5daff051154c636264ce0c560167 345fee0871f3b442808c3b28d8df0b2155b1f64f Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1585790014 -0500	commit: made changes to state and added new file called blog-featured-image
+345fee0871f3b442808c3b28d8df0b2155b1f64f 1ae2ea3078c965fde12f36ec1195190ffae37a98 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586021126 -0500	commit: update styles
+1ae2ea3078c965fde12f36ec1195190ffae37a98 c4bd013831341488df259d3e223a551f274b48f5 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586021143 -0500	commit: made changes
+c4bd013831341488df259d3e223a551f274b48f5 29f6bdcdcea7b2d3511790ff96d2cd96347dce5a Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586470525 -0500	commit: updated changes to styles
+29f6bdcdcea7b2d3511790ff96d2cd96347dce5a 4e9e501d9cc0a782c89183113d45801bcc277b8e Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586470558 -0500	commit: Create headshot.jpg
+4e9e501d9cc0a782c89183113d45801bcc277b8e b209327a30c1194cf0e5bbb8f3bddbed57e659db Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586470608 -0500	commit: updated files
+b209327a30c1194cf0e5bbb8f3bddbed57e659db 3d107778ce7b26b73d71cbe31c35b7a56aa6ce5c Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586474754 -0500	commit: Update about.js
+3d107778ce7b26b73d71cbe31c35b7a56aa6ce5c 05b7f191f13d96d76b2a0af8c340014465083e7a Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586554279 -0500	commit: updated about page
+05b7f191f13d96d76b2a0af8c340014465083e7a 8b866ec9dde23f8b6fe01dcc479d5662aeebab5d Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586554814 -0500	commit: Update contact.js
+8b866ec9dde23f8b6fe01dcc479d5662aeebab5d b58a303e8bd2016705b469c9e08c96185220d7e7 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586555231 -0500	commit: Update blog-detail.js
+b58a303e8bd2016705b469c9e08c96185220d7e7 03402742a1c78ab55010745cbcdf553e2cfd55da Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586555855 -0500	commit: Update about.js
+03402742a1c78ab55010745cbcdf553e2cfd55da 7c7f39abf5088d524ac80cd80b95f2ae00d48f84 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586617070 -0500	commit: nothing changed
+7c7f39abf5088d524ac80cd80b95f2ae00d48f84 7cd95e88be03d90235c6a38413c801de0a5b989b Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586618947 -0500	commit: Update about.js
+7cd95e88be03d90235c6a38413c801de0a5b989b 4a224698dd8edb32382700dfd5bdf7e7671d785d Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586621887 -0500	commit: Update portfolio.scss
+4a224698dd8edb32382700dfd5bdf7e7671d785d 63139ec8e44d1962f50b99d611b580d9b49d6052 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586623203 -0500	commit: Update about.js
+63139ec8e44d1962f50b99d611b580d9b49d6052 0c41846dfe9a2c242f9ba81f63601919e2dbb2df Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586623622 -0500	commit: Update about.js
+0c41846dfe9a2c242f9ba81f63601919e2dbb2df 8ec363128fe5ac2a4fe7901da8b769bd11687b82 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586624019 -0500	commit: Update about.js
+8ec363128fe5ac2a4fe7901da8b769bd11687b82 c926e127bcdce5a699c77809f8cb3f924cc6fb2f Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586625732 -0500	commit: addded linkedin profile
+c926e127bcdce5a699c77809f8cb3f924cc6fb2f b03c6965d7205f6b6b019917ea8561e8f7482096 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586636786 -0500	commit: Update navigation.scss
+b03c6965d7205f6b6b019917ea8561e8f7482096 6fac24f932efbc4f3622bc059c8d431aec183709 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586697453 -0500	commit: added basic media queries
+6fac24f932efbc4f3622bc059c8d431aec183709 4994add2c1493124708ad01d767b36165740d58f Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586697480 -0500	commit: nothin has changed, on edit codes
+4994add2c1493124708ad01d767b36165740d58f 5c8a5a5d02576c90b281d743cb37fe2158819759 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586699548 -0500	commit: updated media queries
+5c8a5a5d02576c90b281d743cb37fe2158819759 5cbea422d22bb2a3abffd932fd77b3d43ed3d0ba Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586994266 -0500	commit: trying to be mobile-friendly
+5cbea422d22bb2a3abffd932fd77b3d43ed3d0ba 23677c0424f97071f066a2a62b57379fac5e015b Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586994505 -0500	commit: Update blog-item.scss
+23677c0424f97071f066a2a62b57379fac5e015b bea3e1e5502586655de965f54e1b32025204492f Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586995235 -0500	commit: Update portfolio-detail.scss
+bea3e1e5502586655de965f54e1b32025204492f 40ba37cde40a2dd1d55c3ced5612ad35c2b4aa75 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586995901 -0500	commit: updated scss in portfolio-details
+40ba37cde40a2dd1d55c3ced5612ad35c2b4aa75 7001d2e32db8f187ac715e5410dc60f0408dec19 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586996151 -0500	commit: Update portfolio-detail.scss
+7001d2e32db8f187ac715e5410dc60f0408dec19 cd75f656a205e5d3b14034ae72a4215e8e1571f8 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586996786 -0500	commit: Update portfolio-detail.scss
+cd75f656a205e5d3b14034ae72a4215e8e1571f8 382b0b0ac6be34533fa294c3a4a416c25fd7aeae Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586997375 -0500	commit: Update portfolio-detail.scss
+382b0b0ac6be34533fa294c3a4a416c25fd7aeae fbeac23bd40ab66ba529ee8708ea8b9f1c4d854b Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1586997496 -0500	commit: Update portfolio-detail.scss
+fbeac23bd40ab66ba529ee8708ea8b9f1c4d854b 3930cea1f8b8a353b6075e3b781421c577d549bf Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1587221650 -0500	commit: added Domain https://estelo.net/
+3930cea1f8b8a353b6075e3b781421c577d549bf de90e4789e6080721d7de956306e9a661d3880cc Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1589906289 -0500	commit: update aboout with skills
+de90e4789e6080721d7de956306e9a661d3880cc f66adbb5853ed184bad26c8929f31efd525f8abe Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1589906491 -0500	commit: Update about.js
+f66adbb5853ed184bad26c8929f31efd525f8abe 8ebed4fa1d1f231a4c163f01125052e484c11045 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1589907031 -0500	commit: disabled Blog component.
+8ebed4fa1d1f231a4c163f01125052e484c11045 81c813bc179d87071f224b0a9c5de80344203fde Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1589907568 -0500	commit: Update navigation.scss
+81c813bc179d87071f224b0a9c5de80344203fde 4494cbd99f6188323752cd3ed1bdb6984b8fd160 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1590442125 -0500	commit: made changes to styles to make more mobile responsive
+4494cbd99f6188323752cd3ed1bdb6984b8fd160 8c6d1ae30d8f7a9e53b867691363df71549bbb7b Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1590443383 -0500	commit: updated scss for moblie
+8c6d1ae30d8f7a9e53b867691363df71549bbb7b 69fb316983c2a3622e551b50e47f7f39222f7e5b Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1590488114 -0500	commit: Update home.scss
+69fb316983c2a3622e551b50e47f7f39222f7e5b 61c317ae772364af85749e824983089944f5bb62 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1590488551 -0500	commit: Update home.scss
+61c317ae772364af85749e824983089944f5bb62 545be505c393c16e6ee6516fbbfc2ee39be222f0 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1590491000 -0500	commit: updated styles
+545be505c393c16e6ee6516fbbfc2ee39be222f0 123ca1f5fe9b845ce5ac8b2c39f4a89aa85414e7 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1592673594 -0500	commit: fixed picture size smaller
+123ca1f5fe9b845ce5ac8b2c39f4a89aa85414e7 0deed5efb28ba067a098ebce89ec6cecb262d3f9 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1592674161 -0500	commit: update image size
+0deed5efb28ba067a098ebce89ec6cecb262d3f9 d82f56011595a2ddae372a295d6eb2de20342030 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1592677252 -0500	commit: update styles font size
+d82f56011595a2ddae372a295d6eb2de20342030 f49c49c36af71544a5651e3d4517f298c09b1bb3 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1592679666 -0500	commit: update social mdia info
+f49c49c36af71544a5651e3d4517f298c09b1bb3 00da5e2876fd10de636374536d55ac623a4d1ddd Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1592680625 -0500	commit: Update contact-info.js
+00da5e2876fd10de636374536d55ac623a4d1ddd a9e0adabacefd1c3ecddaecac2ff09f00e1cd126 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1593361967 -0500	commit: more fixed mobile screens
+a9e0adabacefd1c3ecddaecac2ff09f00e1cd126 78237f4c7ad713f66b5386d97fbc2182157dbf11 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1593362550 -0500	commit: Update portfolio-detail.scss
+78237f4c7ad713f66b5386d97fbc2182157dbf11 0c570e9582c1ffde804f478484da4a2a743c8ff0 Estelo M Abellanosa <49965889+estelo2jz@users.noreply.github.com> 1593362902 -0500	commit: Update portfolio-detail.scss
