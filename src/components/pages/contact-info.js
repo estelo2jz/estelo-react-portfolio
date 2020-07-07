@@ -5,33 +5,36 @@ import contactpagePicture from "../../../static/assets/images/auth/login.jpg";
 
 export default function() {
   return (
-    <div className="content-page-wrapper">
+    <div className="contact-flex-container">
       <div className="contact-img">
-        <div className="right-column space">
+        <div className="space">
           <div className="contact-bullet-points">
             <h1>Recent Employment History</h1>
-              <div className="bullet-point-group">
-                <div className="icon">
-                    <FontAwesomeIcon icon="user-check" />
+
+              <div className="recent-flex-container">
+                <div className="bullet-point-group">
+                  <div className="icon">
+                      <FontAwesomeIcon icon="user-check" />
+                  </div>
+                  <div className="text">
+                      Merchandiser
+                  </div>
                 </div>
-                <div className="text">
-                    Merchandiser
+                <div className="bullet-point-group">
+                  <div className="icon">
+                    <FontAwesomeIcon icon="map-marked-alt" />
+                  </div>
+                  <div className="text">
+                    ThredUp, Vernon Hills, IL
+                  </div>
                 </div>
-              </div>
-              <div className="bullet-point-group">
-                <div className="icon">
-                  <FontAwesomeIcon icon="map-marked-alt" />
-                </div>
-                <div className="text">
-                  ThredUp, Vernon Hills, IL
-                </div>
-              </div>
-              <div className="bullet-point-group">
-                <div className="icon">
-                    <FontAwesomeIcon icon="table" />
-                </div>
-                <div className="text">
-                    Janaury 2018 - May 2020
+                <div className="bullet-point-group">
+                  <div className="icon">
+                      <FontAwesomeIcon icon="table" />
+                  </div>
+                  <div className="text">
+                      Janaury 2018 - May 2020
+                  </div>
                 </div>
               </div>
               <div className="bullet-point-group">
@@ -50,68 +53,62 @@ export default function() {
       <div className="right-column">
         <div className="contact-bullet-points">
           <h1>Contact Info</h1>
-            <div className="bullet-point-group">
-              <div className="icon">
-                  <FontAwesomeIcon icon="phone" />
+          
+            <div className="contact-grid-container">
+              <div className="bullet-point-group">
+                <div className="icon">
+                    <FontAwesomeIcon icon="phone" />
+                </div>
+                <div className="text">
+                    224-413-6293
+                </div>
               </div>
-              <div className="text">
-                  224-413-6293
+              <div className="bullet-point-group">
+                <div className="icon">
+                    <FontAwesomeIcon icon="envelope" />
+                </div>
+                <div className="text">
+                    estelo2jz@gmail.com
+                </div>
               </div>
-            </div>
-            <div className="bullet-point-group">
-              <div className="icon">
-                  <FontAwesomeIcon icon="envelope" />
-              </div>
-              <div className="text">
-                  estelo2jz@gmail.com
-              </div>
-            </div>
-            <div className="bullet-point-group">
-              <div className="icon">
-                  <FontAwesomeIcon icon="map-marked-alt" />
-              </div>
-              <div className="text">
-                  Beach Park, IL
-              </div>
-            </div>
-            <div className="bullet-point-group">
-              <div className="icon">
-                  <FontAwesomeIcon icon="user-circle" />
-              </div>
-              <div className="text">
-                <a href="https://github.com/estelo2jz">
-                  github
-                </a>
+              <div className="bullet-point-group">
+                <div className="icon">
+                    <FontAwesomeIcon icon="map-marked-alt" />
+                </div>
+                <div className="text">
+                    Beach Park, IL
+                </div>
               </div>
             </div>
-            <div className="bullet-point-group">
-              <div className="icon">
-                  <FontAwesomeIcon icon="user-circle" />
+
+            <div className="contact-grid-container">
+              <div className="bullet-point-group">
+                <div className="text">
+                  <a href="https://github.com/estelo2jz">
+                    github
+                  </a>
+                </div>
               </div>
-              <div className="text">
-                <a href="https://www.linkedin.com/in/estelo-abellanosa-83a335186/">
-                  linkedin
-                </a>
+              <div className="bullet-point-group">
+                <div className="text">
+                  <a href="https://www.linkedin.com/in/estelo-abellanosa-83a335186/">
+                    linkedin
+                  </a>
+                </div>
               </div>
-            </div>
-            <div className="bullet-point-group">
-              <div className="icon">
-                  <FontAwesomeIcon icon="user-circle" />
+              <div className="bullet-point-group">
+                <div className="text">
+                  <a href="https://www.facebook.com/estelo.abellanosa">
+                    facebook
+                  </a>
+                </div>
               </div>
-              <div className="text">
-                <a href="https://www.facebook.com/estelo.abellanosa">
-                  facebook
-                </a>
-              </div>
-            </div>
-            <div className="bullet-point-group">
-              <div className="icon">
-                  <FontAwesomeIcon icon="user-circle" />
-              </div>
-              <div className="text">
-                <a href="https://twitter.com/EsteloManitoba">
-                  twitter
-                </a>
+              <div className="bullet-point-group">
+                <div className="text">
+                  <a href="https://twitter.com/EsteloManitoba">
+                    twitter
+                  </a>
+                </div>
               </div>
             </div>
         </div>
