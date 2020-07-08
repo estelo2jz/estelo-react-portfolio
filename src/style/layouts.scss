@@ -18,7 +18,7 @@ html {
     padding: 20px;
     // border: 5px solid white;
     border-radius: 10px;
-    background-image: linear-gradient(#34e89e, #0f3443);
+    // background-image: linear-gradient(#34e89e, #0f3443);
 
     .contact-bullet-points {
       .recent-flex-container {
@@ -36,14 +36,14 @@ html {
         }
         .text {
           padding: 10px;
-          color: white;
+          color: black;
           a {
-            color: white;
+            color: black;
           }
         }
 
         ul {
-           color: white;
+           color: black;
         }
       }
     }
@@ -54,7 +54,7 @@ html {
     padding: 20px;
     // border: 5px solid white;
     // box-shadow: 5px 5px 5px 5px #888888;
-    background-image: linear-gradient(#34e89e, #0f3443);
+    // background-image: linear-gradient(#34e89e, #0f3443);
 
     border-radius: 10px;
     .contact-bullet-points {
@@ -77,9 +77,9 @@ html {
         }
         .text {
           padding: 10px;
-          color: white;
+          color: black;
           a {
-            color: white;
+            color: black;
           }
         }
       }
