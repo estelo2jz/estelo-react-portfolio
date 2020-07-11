@@ -53,7 +53,7 @@ const NavigationContainer = (props) => {
             </div>
 
             <div className="rigth-side">
-                ESTELO ABELLANOSA
+                ESTELO A.
                 {props.loggedInStatus === "LOGGED_IN" ? (
                     <a onClick={handleSignOut}>
                     <FontAwesomeIcon icon="sign-out-alt" />
