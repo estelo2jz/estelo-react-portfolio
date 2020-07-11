@@ -5,7 +5,7 @@
   font-weight: 500;
   border: 1px solid transparent;
   transition: all 0.5s ease-in-out;
-  background-color: #dd4c4c;
+  background-color: gray;
   color: white;
 
   &:active, &:focus {
@@ -13,7 +13,7 @@
   }
 
   &:hover {
-    background-color:  #da0505;
+    background-color: black;
   }
 }
 

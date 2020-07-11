@@ -7,7 +7,8 @@
   background-color: #FAF0E6;
   margin: 5px;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-  background-image: linear-gradient(to bottom right,#34e89e, #0f3443);
+  // background-image: linear-gradient(to bottom right,#34e89e, #0f3443);
+  background-color: black;
   
 
   .rigth-side {
@@ -44,7 +45,7 @@
       color: white;
       text-decoration: none;
       &:hover {
-        color: black;
+        color: gray;
       }
     }
 
@@ -53,7 +54,7 @@
     }
     .nav-link-active {
       border-bottom: 2px solid white;
-      color: black;
+      color: white;
       }
   }
 }
