@@ -34,7 +34,7 @@ export default function() {
             <h1>My skills</h1>
             <ul>
                 <li>Python</li>
-                <li>HTML/SCSS?JavaScript</li>
+                <li>HTML/SCSS/JavaScript</li>
                 <li>Back end Database</li>
                 <li>Analytical Skills</li>
                 <li>Responsive Design</li>
