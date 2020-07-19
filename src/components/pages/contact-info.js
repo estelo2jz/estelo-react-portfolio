@@ -6,7 +6,7 @@ import contactpagePicture from "../../../static/assets/images/auth/login.jpg";
 export default function() {
   return (
     <div className="contact-flex-container">
-      <div className="contact-img">
+      {/* <div className="contact-img">
         <div className="space">
           <div className="contact-bullet-points">
             <h1>Recent Employment History</h1>
@@ -48,7 +48,7 @@ export default function() {
               </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="right-column">
         <div className="contact-bullet-points">

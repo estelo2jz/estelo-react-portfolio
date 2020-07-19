@@ -25,21 +25,21 @@ export default function() {
             <p><strong>Estelo Abellanosa is a Full Stack Developer</strong></p> 
             <p>with React, Python, and JavaScript.</p>
             <p>
-              Innovative Full Stack Developer with 2 years of experience in building and maintaining websites. 
-              Proficient in HTML, SASS, JavaScript, Python, and React, plus modern libraries and frameworks. 
-              Passionate about usability and possess the knowledge and working with computer hardware.
-              I have attended Bottega tech <a href="https://bottega.tech">https://bottega.tech</a>, and <a href="https://www.udemy.com/">Udemy</a> courses on my free time.
-              I enjoy building projects with React, like this website for example, it's built on React.
+              Innovative Junior Front End Developer with 2 years of experience in building and implementing websites. 
+              Proficient in HTML/SASS, JavaScript, NodeJS,  ReactJS, Python, MySQL, JSON, ExpressJS, NightmareJS, PuppeteerJS. 
+              I have never worked on a Tech Industry before, I am eager to learn new experiences and languages. 
+              I love working with NodeJs and JSON data, It's just something that catches your eyes whenever you get some data.
             </p>
             <h1>My skills</h1>
             <ul>
-                <li>Python</li>
-                <li>HTML/SCSS/JavaScript</li>
-                <li>Back end Database</li>
-                <li>Analytical Skills</li>
-                <li>Responsive Design</li>
                 <li>Computer Skills</li>
                 <li>Hardware Troubleshooting</li>
+                <li>Web Scraping</li>
+                <li>Data Structures</li>
+                <li>MongoDB</li>
+                <li>JQuery</li>
+                <li>MySQL</li>
+
             </ul>
             <p>
                 The Website is not Mobile-Friendly.
