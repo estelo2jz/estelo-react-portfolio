@@ -60,7 +60,7 @@ export default function() {
                     <FontAwesomeIcon icon="phone" />
                 </div>
                 <div className="text">
-                    224-413-6293
+                    224-413-6392
                 </div>
               </div>
               <div className="bullet-point-group">
