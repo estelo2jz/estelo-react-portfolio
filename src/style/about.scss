@@ -1,139 +1,102 @@
 .wrapper {
   .content-page-wrapper {
     grid-gap: 5px;
-    height: 100%;
 
-    .about-left-container {
-      display: flex;
-      justify-content: center;
-      background-color: #ebf6f5;
-      align-content: center;
-      align-items: center;
-      margin-left: 5px;
-      height: 100%;
+    .about-grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100vw;
 
-      .about-left-flex-container {
-        display: grid;
+
+      .about-summary-container {
+        display: flex;
         justify-content: center;
-        align-content: center;
-        align-items: center;
-        height: 100%;
+        width: 100%;
 
-        .about-left-boxes {
-          display: flex;
-          justify-content: center;
-          align-content: center;
-          align-items: center;
-          height: 100%;
-          width: 50vw;
-          overflow: hidden;
-          border-radius: 10px;
-
-          .about-left-grid {
-            display: grid;
-            justify-content: center;
-            text-align: center;
-            grid-gap: 5px;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-
-            // background-color: green;
-            p {
-              padding: 10px;
-              line-height: 1.8;
-
-            }
-
-            .about-left-bio-container {
-              display: flex;
-              justify-content: center;
-              align-content: center;
-              align-items: center;
-              width: 100%;
-
-              p {
-              }
-
-            }
-          }
-
-          .about-left-image {
-            overflow: hidden;
-            border-radius: 10px;
-
-
-            img {
-              padding: 10px;
-              height: 300px;
-              width: 250px;
-              border-radius: 20px;
-              background-repeat: no-repeat;
-              background-position: center;
-
-            }
-          }
-        }
-      }
-
-    }
-
-    .about-right-container {
-      margin-right: 5px;
-
-      .about-right-grid-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-row-gap: 5px;
-        grid-column-gap: 5px;
-
-        .about-right-flex-container {
-          display: flex;
-          background-color: #ebf6f5;
-          justify-content: center;
-          align-content: center;
-          align-items: center;
-          height: 50vh;
-        }
-
-        .about-right-boxes {
+        .about-helper {
           display: grid;
           justify-content: center;
-          text-align: center;
-          align-content: center;
-          // background-color: red;
-          background-color: #ebf6f5;
-          width: 50%;
-          height: 80%;
-          overflow: hidden;
-          // overflow: scroll;
-          border-radius: 10px;
-
-          // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          p {
-            padding: 10px;
+          width: 70%;
+          height: 70%;
+          .about-summary-info {
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
             height: 100%;
-            line-height: 1.8;
-
+  
+            p {
+              line-height: 2;
+              font-size: 1.2em;
+            }
           }
-        }
 
-
-        .about-right-list-container {
-          display: flex;
-          justify-content: center;
-          a {
-            text-decoration: none;
-            color: black;
-            font-size: 1.2em;
-            font-weight: 600;
-            padding: 10px;
-          }
         }
       }
 
+      .about-business-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        
+
+        p {
+          line-height: 2;
+          font-size: 1.2em;
+          width: 50%;
+
+        }
+      }
+      
+      .about-project-container {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        height: 80%;
+
+
+        .about-project-helper {
+          ul {
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            padding: 0;
+          }
+
+          a {
+            text-decoration: none;
+            color: blue;
+          }
+        }
+      }
     }
 
   }
 
+}
+
+@media(max-width: 600px) {
+  .wrapper {
+    .content-page-wrapper {
+      .about-grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: 97%;
+        height: 100%;
+
+        .about-project-container {
+          border-top: 1px solid black;
+
+          height: 100%;
+        }
+      }
+    }
+  }
 }
