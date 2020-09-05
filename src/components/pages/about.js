@@ -19,9 +19,9 @@ export default function() {
                     Proficient in HTML/SASS, JavaScript, NodeJS,  ReactJS, MySQL, JSON, ExpressJS, MongoDB, Firebase.
                   </p>
                   <p>
-                    I learned the fundamentals of coding from Bottega tech an online cooding bootcamp. Where i learn how to be a Full Stack Developer.
-                    Now I am still kearning differents types of languages and libraries to improve my current Development skills.
-                    I was able to build differents types of website, using what I have learn in the bootcamp.
+                    I learned the fundamentals of coding from Bottega tech an online coding bootcamp. Where I learn how to be a Full Stack Developer.
+                    Now I am still learning different types of languages and libraries to improve my current development skills.
+                    I am able to build different types of websites, using what I have learned from the bootcamp.
                   </p>
                 </div>
               </div>
