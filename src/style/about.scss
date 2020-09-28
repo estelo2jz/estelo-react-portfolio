@@ -1,7 +1,6 @@
 .wrapper {
   .content-page-wrapper {
     grid-gap: 5px;
-<<<<<<< HEAD
     height: 100%;
 
     .about-left-container {
@@ -112,104 +111,4 @@
 
   }
 
-=======
-
-    .about-grid-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      width: 100vw;
-
-
-      .about-summary-container {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-
-        .about-helper {
-          display: grid;
-          justify-content: center;
-          width: 70%;
-          height: 70%;
-          .about-summary-info {
-            display: grid;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
-            text-align: center;
-            width: 100%;
-            height: 100%;
-  
-            p {
-              line-height: 2;
-              font-size: 1.2em;
-            }
-          }
-
-        }
-      }
-
-      .about-business-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-content: center;
-        width: 100%;
-        
-
-        p {
-          line-height: 2;
-          font-size: 1.2em;
-          width: 50%;
-
-        }
-      }
-      
-      .about-project-container {
-        display: grid;
-        justify-content: center;
-        text-align: center;
-        align-content: center;
-        height: 80%;
-
-
-        .about-project-helper {
-          ul {
-            display: grid;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
-            padding: 0;
-          }
-
-          a {
-            text-decoration: none;
-            color: blue;
-          }
-        }
-      }
-    }
-
-  }
-
-}
-
-@media(max-width: 600px) {
-  .wrapper {
-    .content-page-wrapper {
-      .about-grid-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        text-align: center;
-        width: 97%;
-        height: 100%;
-
-        .about-project-container {
-          border-top: 1px solid black;
-
-          height: 100%;
-        }
-      }
-    }
-  }
->>>>>>> 5c37a2dc0648b7fba6c78663a522cbe59c7cb84f
 }
