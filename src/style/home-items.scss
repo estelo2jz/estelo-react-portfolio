@@ -1,0 +1,313 @@
+
+$img-mini-store: "https://images.unsplash.com/photo-1564760290292-23341e4df6ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80";
+$img-company: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+$img-chinese: "https://images.unsplash.com/photo-1557162650-bf9bd696a7d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1054&q=80";
+$img-diamond: "https://images.unsplash.com/photo-1558446757-426e7886ed28?ixlib=rb-1.2.1&auto=format&fit=crop&w=825&q=80";
+$img-barber: "https://images.unsplash.com/photo-1493256338651-d82f7acb2b38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80";
+$img-grasspro: "https://images.unsplash.com/photo-1494178342956-693723378cfd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80";
+$img-sticker: "https://images.unsplash.com/photo-1529458600305-b5bdde535770?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80";
+$img-razor: "https://images.unsplash.com/photo-1599351431613-18ef1fdd27e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80";
+$img-mower: "https://images.unsplash.com/photo-1458245201577-fc8a130b8829?ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80";
+.home-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+@keyframes slide {
+    0%  {
+        transform: scale(0, 0) translateY(0);
+    }
+    
+    15%, 100% {
+        transform: scale(1, 1) translateY(0);
+    }
+}
+
+@keyframes size {
+    0%, 15%  {
+        transform: scale(1, 0);
+    }
+    
+    25%, 100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes zoom {
+    0%, 25%  {
+        transform: scale(0, 0);
+    }
+    
+    35%, 100% {
+        transform: scale(1, 1);
+    }
+}
+
+.wrap {
+    display: grid;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.apps {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-gap: 20px;
+}
+
+.app {
+    width: 500px;
+    height: 200px;
+    background: rgb(243, 239, 239);
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, .08);
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+
+    // i will not show up in the beggining
+    transform: scale(0, 0) translateY(0);
+    
+    animation-name: slide;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+
+    // animation-iteration-count: infinite;
+    
+    &:nth-child(2), &:nth-child(2) .top, &:nth-child(2) .fa {
+        animation-delay: .2s;
+    }
+    &:nth-child(3), &:nth-child(3) .top, &:nth-child(3) .fa {
+        animation-delay: .4s;
+    }
+    &:nth-child(4), &:nth-child(4) .top, &:nth-child(4) .fa {
+        animation-delay: .6s;
+    }
+    &:nth-child(5), &:nth-child(5) .top, &:nth-child(5) .fa {
+        animation-delay: .8s;
+    }
+    &:nth-child(6), &:nth-child(6) .top, &:nth-child(6) .fa {
+      animation-delay: 1s;
+    }
+    &:nth-child(7), &:nth-child(7) .top, &:nth-child(7) .fa {
+        animation-delay: 1.2s;
+    }
+    &:nth-child(8), &:nth-child(8) .top, &:nth-child(8) .fa {
+        animation-delay: 1.4s;
+    }
+    
+    .top {
+        height: 40px;
+        position: relative;
+        
+        transform: scale(1, 0);
+        transform-origin: 0 0;
+        
+        animation-name: size;
+        animation-duration: 4s;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        
+        .fa {
+            text-align: center;
+            color: #fff;
+            border-radius: 10%;
+            position: absolute;
+            right: 5px;
+            top: -9px;
+            // box-shadow: 1px 1px 1px .5px rgba(0, 0, 0, .08);
+            
+            animation-name: zoom;
+            animation-duration: 4s;
+            animation-fill-mode: forwards;
+
+            p {
+              padding: 5px;
+            }
+          }
+        }
+
+        .image-helper {
+          position: absolute;
+          overflow: hidden;
+
+          .pic-one {
+            background-image: url($img-mini-store);
+            filter: grayscale(100%);
+
+          }
+          .pic-two {
+            background-image: url($img-company);
+            filter: grayscale(100%);
+            
+          }
+          .pic-three {
+            background-image: url($img-chinese);
+            filter: grayscale(100%);
+            
+          }
+          .pic-four {
+            background-image: url($img-diamond);
+            filter: grayscale(100%);
+            
+          }
+          .pic-five {
+            background-image: url($img-barber);
+            filter: grayscale(100%);
+            
+          }
+          .pic-six {
+            background-image: url($img-grasspro);
+            filter: grayscale(100%);
+            
+          }
+          .pic-seven {
+            background-image: url($img-sticker);
+            filter: grayscale(100%);
+            
+          }
+          .pic-eight {
+            background-image: url($img-razor);
+            filter: grayscale(100%);
+            
+          }
+        }
+
+        .pic-one, .pic-two, .pic-three, .pic-four, .pic-five, .pic-six, .pic-seven, .pic-eight {
+          z-index: 100;
+          width: 500px;
+          // background-attachment: fixed;
+          background-size: auto;
+          height: 200px;
+          overflow: hidden;
+          background-repeat: no-repeat;
+          background-position: center;
+          // background-image: url($img-chinese);
+          filter: grayscale(100%);
+          position: relative;
+          top: 40px;
+        }
+
+        &:hover .pic-one {
+          filter: grayscale(0);
+          
+        }
+        &:hover .pic-three {
+          filter: grayscale(0);
+          
+        }
+        &:hover .pic-two {
+          filter: grayscale(0);
+          
+        }
+        &:hover .pic-three {
+          filter: grayscale(0);
+          
+        }
+        &:hover .pic-four {
+          filter: grayscale(0);
+          
+        }
+        &:hover .pic-five {
+          filter: grayscale(0);
+          
+        }
+        &:hover .pic-six {
+          filter: grayscale(0);
+          
+        }
+        &:hover .pic-seven {
+          filter: grayscale(0);
+          
+        }
+        &:hover .pic-eight {
+          filter: grayscale(0);
+          
+        }
+        
+        a {
+          text-decoration: none;
+          height: 100vh;
+          width: 100%;
+          position: relative;
+          
+        }
+    &.one .top {
+      background: #F28F00;
+      background-image: url($img-mini-store);
+
+      // .fa {
+      //     background: #FFCC3B
+      // }
+    }
+    
+    &.two .top {
+      background: #EA4301;
+      background-image: url($img-company);
+      // .fa {
+      //     background: #FF8963
+      // }
+    }
+    
+    &.three .top {
+      background: #ab13e7;
+      background-image: url($img-chinese);
+
+      .fa {
+          // background: #74B0F8
+      }
+    }
+    
+    &.four .top {
+      background: #c7d31f;
+      background-image: url($img-diamond);
+
+
+    }
+    
+    &.five .top {
+      background: #BD0E53;
+      background-image: url($img-barber);
+
+
+    }
+
+    &.six .top {
+      background: #1E3F9C;
+      background-image: url($img-grasspro);
+
+      // .fa {
+      //     background: #74B0F8;
+      //     padding: 0px;
+      // }
+    }
+    
+    &.seven .top {
+      background: #669930;
+      background-image: url($img-sticker);
+
+
+    }
+    
+    &.eight .top {
+      background: #18afdd;
+      background-image: url($img-razor);
+
+
+    }
+}
+
+// .pic-three {
+//   background-image: url($img-chinese);
+//   filter: grayscale(100%);
+  
+// }
