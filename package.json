@@ -80,7 +80,7 @@
     "react-truncate-markup": "^4.1.1",
     "redux": "^3.7.2",
     "sass-loader": "^7.1.0",
-    "striptags": "^2.0.0",
+    "striptags": "^3.2.0",
     "style-loader": "^0.21.0",
     "truncate": "^2.1.0",
     "webpack": "^4.16.4",
